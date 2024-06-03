@@ -1,0 +1,54 @@
+Apr 28, 2024 2:21:05 AM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:25:52 AM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:25:52 AM lesson2i1 writeFileNamesFile
+SEVERE: Voznikla owibka v metode zapisi - Podrobnoe opisanie ....
+Apr 28, 2024 2:25:59 AM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:25:59 AM lesson2i1 readFileNames
+SEVERE: Voznikla owibka v  metode 4teniya - Podrobnoe opisanie ....
+Apr 28, 2024 2:26:06 AM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:26:06 AM lesson2i1 writeFileNamesFile
+SEVERE: Voznikla owibka v metode zapisi - Podrobnoe opisanie ....
+Apr 28, 2024 2:26:11 AM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:26:11 AM lesson2i1 writeFileNamesFile
+SEVERE: Voznikla owibka v metode zapisi - Podrobnoe opisanie ....
+Apr 28, 2024 2:26:14 AM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:01:44 PM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:01:44 PM lesson2i1 readFileNames
+SEVERE: Voznikla owibka v  metode 4teniya - Podrobnoe opisanie ....
+Apr 28, 2024 2:01:54 PM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:01:54 PM lesson2i1 writeFileNamesFile
+SEVERE: Voznikla owibka v metode zapisi - Podrobnoe opisanie ....
+Apr 28, 2024 2:02:00 PM lesson2i1 main
+INFO: Application started
+Apr 28, 2024 2:02:00 PM lesson2i1 writeFileNamesFile
+SEVERE: Voznikla owibka v metode zapisi - Podrobnoe opisanie ....
+Apr 28, 2024 2:02:04 PM lesson2i1 main
+INFO: Application started
+May 09, 2024 7:19:44 PM lesson2 main
+INFO: Prilojenie startovalo
+May 09, 2024 7:19:44 PM lesson2 Readfilenamesindir
+SEVERE: Voznikla owibka  v metode 4teniya - Podrobnoe Opisanie owibki
+May 09, 2024 7:20:09 PM lesson2 main
+INFO: Prilojenie startovalo
+May 09, 2024 7:20:09 PM lesson2 Readfilenamesindir
+SEVERE: Voznikla owibka  v metode 4teniya - Podrobnoe Opisanie owibki
+May 09, 2024 7:20:16 PM lesson2 main
+INFO: Prilojenie startovalo
+May 09, 2024 7:20:16 PM lesson2 Readfilenamesindir
+SEVERE: Voznikla owibka  v metode 4teniya - Podrobnoe Opisanie owibki
+May 09, 2024 7:20:18 PM lesson2 main
+INFO: Prilojenie startovalo
+May 09, 2024 7:20:19 PM lesson2 Readfilenamesindir
+SEVERE: Voznikla owibka  v metode 4teniya - Podrobnoe Opisanie owibki
+May 17, 2024 7:19:40 AM lesson2 main
+INFO: Prilojenie startovalo
+May 17, 2024 7:19:40 AM lesson2 Readfilenamesindir
+SEVERE: Voznikla owibka  v metode 4teniya - Podrobnoe Opisanie owibki

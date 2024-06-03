@@ -1,0 +1,17 @@
+java.code-workspace
+lesson1.class
+lesson1.java
+lesson1i1.java
+lesson1lib.java
+Printer.java
+lesson1i2.java
+file.txt
+.git
+log.config
+lesson2log.java
+lesson2.java
+testforjava
+task1.txt
+lesson2i1.java
+log.0.0.txt
+log.0.0.txt.lck

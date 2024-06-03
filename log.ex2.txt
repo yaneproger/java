@@ -1,0 +1,16 @@
+May 22, 2024 8:25:15 PM BubbleSort sort
+INFO: Log message
+May 22, 2024 8:25:15 PM BubbleSort sort
+INFO: Log message
+May 22, 2024 8:25:15 PM BubbleSort sort
+INFO: Log message
+May 22, 2024 8:25:15 PM BubbleSort sort
+INFO: Log message
+May 22, 2024 9:52:39 PM BubbleSort sort
+INFO: Log message
+May 22, 2024 9:52:39 PM BubbleSort sort
+INFO: Log message
+May 22, 2024 9:52:39 PM BubbleSort sort
+INFO: Log message
+May 22, 2024 9:52:39 PM BubbleSort sort
+INFO: Log message
