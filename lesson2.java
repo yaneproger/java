@@ -5,46 +5,38 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import java.util.logging.*;
 
 // import java.util.logging.Level;
 // import java.util.logging.Logger;
 // import java.lang.System.Logger;
-
 public class lesson2 {
 
-    public class logger(){
-           
-    Logger logger = Logger.getLogger("log");
-
-    try{
-    FileHandler fh = new FileHandler("log.txt",true);
-      logger.addHandler(fh);
-      fh.setFormatter(new SimpleFormatter());
-      logger.info("Log message");
-        } catch  (FileNotFoundException e)
-        {
-       logger.log(Level.SEVERE, "Произошла ошибка при работе с FileHandler.", e);
-        }
-      
-    }
-    
-    
-    
-  }
-  
-  
-  
-
-
+//     public class logger(){
+//     Logger logger = Logger.getLogger("log");
+//     try{
+//     FileHandler fh = new FileHandler("log.txt",true);
+//       logger.addHandler(fh);
+//       fh.setFormatter(new SimpleFormatter());
+//       logger.info("Log message");
+//         } catch  (FileNotFoundException e)
+//         {
+//        logger.log(Level.SEVERE, "Произошла ошибка при работе с FileHandler.", e);
+//         }
+//     Logger logger = Logger.getLogger("MyLog");
+//     try {
+//     FileHandler fh = new FileHandler("ItsLogTime.log", true);
+//     logger.addHandler(fh);
+//     fh.setFormatter(new SimpleFormatter());
+//     logger.info("Log message");
+//     } catch (SecurityException | IOException e) {
+//     logger.log(Level.SEVERE, "Произошла ошибка при работе с FileHandler.", e);
+//     }
+//     }
+//   }
 // private static Logger LOGGER = Log.log(Task1.class.getName());
-
     // private static Logger Lesson2Logger = lesson2log.log(lesson2.class.getName());
-
     private static Logger Lesson2Logger = Logger.getLogger(name);
-    
 
     // private static Logger Lesson2logger = lesson2log.log(lesson2.class.getName());
     public static void main(String[] args) {
@@ -183,27 +175,27 @@ public class lesson2 {
         System.out.println(digit);
         return digit > 0;
     }
+}
 
-    // public static void Stringcheck() {
-    //     String data = null;
-    //     StringBuilder sb = new StringBuilder();
-    //     for (int i = 0; i < 50000; i++) {
-    //         sb.append("+").toString();
-    //         // String[] arr = new String[sb.length()];
-    //         // data = sb.toString();
-    //         // sb.append(arr);
-    //         System.out.println(sb);
-    //     }
-    //     // return data;
-    // }
-    // try {
-    //     FileReader fr = new FileReader("file.txt");
-    // } catch (FileNotFoundException e) {
-    //     System.out.println();
-    // }
+// public static void Stringcheck() {
+//     String data = null;
+//     StringBuilder sb = new StringBuilder();
+//     for (int i = 0; i < 50000; i++) {
+//         sb.append("+").toString();
+//         // String[] arr = new String[sb.length()];
+//         // data = sb.toString();
+//         // sb.append(arr);
+//         System.out.println(sb);
+//     }
+//     // return data;
+// }
+// try {
+//     FileReader fr = new FileReader("file.txt");
+// } catch (FileNotFoundException e) {
+//     System.out.println();
+// }
 // }
 // private static Logger LOGGER = Log.log(Task1.class.getName());
-
 //     public static void main(String[] args) {
 //         LOGGER.log(Level.INFO, "Приложение стартовало");
 //         String out = "C:\\Users\\lexle\\Downloads";

@@ -2,6 +2,14 @@
 // Поиск простого числа
 public class lesson1i {
 
+    public static void main(String[] args) {
+
+        printPrimeNums();
+
+        // Answer ans = new Answer();
+        // ans.printPrimeNums();
+    }
+
     // class Answer {
     public static void printPrimeNums() {
 
@@ -49,13 +57,6 @@ public class lesson1i {
     // }
     // Не удаляйте этот класс - он нужен для вывода результатов на экран и проверки
     // public class Printer {
-    public static void main(String[] args) {
-
-        printPrimeNums();
-
-        // Answer ans = new Answer();
-        // ans.printPrimeNums();
-    }
 }
 
 // }
