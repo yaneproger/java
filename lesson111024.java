@@ -6,7 +6,7 @@ import java.io.FileReader;
 public class lesson111024 {
 
     public static void main(String[] args) {
-        readFileNames("/home/user/java/lesson1.java");
+        readFileNames("/home/user/java");
 
     }
 
@@ -15,27 +15,19 @@ public class lesson111024 {
         FileReader fr = null;
         File myfile = new File(path);
 
-        try {
-            if (myfile.isDirectory()) {
+        if (myfile.isFile()) {
+            System.out.println("This is a file");
+
+        } else {
+            try {
                 fr = new FileReader(myfile);
-                File[] arrayOfFiles = myfile.listFiles();
-                for (File iterable_element : arrayOfFiles) {
-                    System.out.println(iterable_element.getName());
-
-                }
-
-                // fr=new FileReader(myfile.listFiles());
+            } catch (FileNotFoundException ex) {
             }
-        } catch (FileNotFoundException ex) {
-            ex.printStackTrace();
+            File[] arrayOfFiles = myfile.listFiles();
+            for (File elementInFilesList : arrayOfFiles) {
+                System.out.println(elementInFilesList.getName());
+
+            }
         }
-        // finally {
-        //     try {
-        //         fr.close();
-        //     } catch (IOException e) {
-
-        //     }
-        // }
     }
-
 }
