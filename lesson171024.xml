@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-10-18T07:05:43.528784868Z</date>
+  <millis>1729235143528</millis>
+  <nanos>784868</nanos>
+  <sequence>0</sequence>
+  <logger>lesson171024</logger>
+  <level>WARNING</level>
+  <class>lesson171024</class>
+  <method>lesson</method>
+  <thread>1</thread>
+  <message>Test logging 1 </message>
+</record>
+<record>
+  <date>2024-10-18T07:05:43.618137667Z</date>
+  <millis>1729235143618</millis>
+  <nanos>137667</nanos>
+  <sequence>1</sequence>
+  <logger>lesson171024</logger>
+  <level>INFO</level>
+  <class>lesson171024</class>
+  <method>lesson</method>
+  <thread>1</thread>
+  <message>Test logging 2</message>
+</record>
+</log>

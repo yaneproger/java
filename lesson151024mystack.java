@@ -7,6 +7,15 @@ public class lesson151024mystack {
     private int[] array = new int[capacity];
     private int top = -1;
 
+    public static boolean isNumeric(String str) {
+        try {
+            Double.parseDouble(str);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
+        }
+    }
+
     private void addCapacity() {
 
         if (size == capacity) {
