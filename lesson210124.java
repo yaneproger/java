@@ -7,13 +7,13 @@ import java.util.Scanner;
 
 public class lesson210124 {
 
-    static FileWriter fileWriter;
+    public static FileWriter fileWriter;
 
     public static void main(String[] args) {
 
-        File file = new File("log.txt");
         try {
-            fileWriter = new FileWriter(file);
+            File file = new File("log.txt");
+            fileWriter = new FileWriter(file, true);
             Scanner scanner = new Scanner(System.in);
             System.out.print("Vvedite 1-oe cislo : ");
             int a = scanner.nextInt();
@@ -39,7 +39,7 @@ public class lesson210124 {
             System.out.println(res);
             // fileWriter.append(res + ": " + System.currentTimeMillis() + '\n');
             // fileWriter.write(new Timestamp(System.currentTimeMillis()) + ": " + res + '\n');
-            fileWriter.append(new Timestamp(System.currentTimeMillis()) + ": " + res + '\n');
+            fileWriter.write(new Timestamp(System.currentTimeMillis()) + ": " + res + '\n');
             fileWriter.close();
 
         } catch (IOException ex) {

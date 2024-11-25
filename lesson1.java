@@ -16,7 +16,9 @@ public class lesson1 {
         System.out.println(d);
         char ch = ']';
         System.out.println(ch);
-        ch = 123;   // Po4emu zdes pe4ataetsa  "{ "  a ne kvadratnaya skobka "]"
+        ch = 123;   // Po4emu zdes pe4ataetsa  "{ "  
+        // a ne kvadratnaya skobka "]" potomu 4to kod ascii { sovpadaet s 123 
+        // ili kogda pusto - net takogo koda v tablice ascii
         System.out.println(ch);
 
         System.out.println(perem);

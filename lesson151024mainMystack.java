@@ -1,11 +1,25 @@
 
 import java.util.LinkedList;
 
+
+Object Myobject = new class Mylesson() {
+
+
+
+}
+
+
+
+
+
 public class lesson151024mainMystack {
 
     public static void main(String[] args) {
 
         LinkedList myLL = new LinkedList<>();
+
+
+
 
         myLL.add();
         mystack stack01 = new mystack();
