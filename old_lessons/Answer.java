@@ -1,3 +1,4 @@
+package old_lessons;
 
 // Дана строка sql-запроса:
 // select * from students where "
