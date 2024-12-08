@@ -48,7 +48,6 @@ public class lesson251124 {
             LOGGER.log(Level.SEVERE, "Voznikla owibka v metode zapisi");
             throw new RuntimeException("Voznikla owibka v metode zapisi");
         }
-
         FileWriter mywriter = null;
         String[] array = new String[]{};
         try {
@@ -73,6 +72,11 @@ public class lesson251124 {
 
 //  metod kotoriy vozvrawaet soderjimoe tekuwey papki kak massiv strok
     public static String[] reader(String dirpath) {
+        if (trueorfalse()) {
+
+            LOGGER.log(Level.SEVERE, "Voznikla owibka v metode 4teniya");
+            throw new RuntimeException("Voznikla owibka v metode 4teniya");
+        }
         FileReader myreader = null;
         String[] names = new String[]{};
         // try {
@@ -83,6 +87,7 @@ public class lesson251124 {
             System.out.println("file not found");
         }
         if (myfile.isFile()) {
+
             try {
                 System.out.println("file is not dir");
                 throw new IOException("is not directory");
