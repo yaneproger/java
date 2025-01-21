@@ -130,3 +130,11 @@ Dec 07, 2024 7:20:45 PM lesson251124 main
 SEVERE: Prilojenie startovalo
 Dec 07, 2024 7:20:45 PM lesson251124 reader
 SEVERE: Voznikla owibka v metode 4teniya
+Dec 10, 2024 2:34:10 AM lesson251124 main
+SEVERE: Prilojenie startovalo
+Dec 10, 2024 2:34:10 AM lesson251124 reader
+SEVERE: Voznikla owibka v metode 4teniya
+Dec 10, 2024 2:34:24 AM lesson251124 main
+SEVERE: Prilojenie startovalo
+Dec 10, 2024 2:34:24 AM lesson251124 writer
+SEVERE: Voznikla owibka v metode zapisi
